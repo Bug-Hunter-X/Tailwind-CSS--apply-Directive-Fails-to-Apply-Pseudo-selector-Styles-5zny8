@@ -1,0 +1,7 @@
+The solution is to avoid using `@apply` with pseudo-selectors. Apply the classes directly in your HTML.  For example:
+
+```html
+<button class="bg-blue-500 hover:bg-blue-700">Hover Me</button>
+```
+
+This approach ensures that the `hover:bg-blue-700` style is applied correctly when hovering over the button.  No changes are required to the CSS file.
